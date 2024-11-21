@@ -1,24 +1,27 @@
-
-#include "Estudiante.h"
 #include <iostream>
-#include <utility>
+#include "Estudiante.h"
 
-Estudiante::Estudiante(std::string nombre, int edad, double promedio)
-    : nombre(std::move(nombre)), edad(edad), promedio(promedio) {}
+Estudiante::Estudiante(const std::string& nombre, int edad, float promedio)
+    : nombre(nombre), edad(edad), promedio(promedio) {}
 
-void mostrarEstudiante(const Estudiante& est) {
-    std::cout << "Nombre: " << est.nombre << std::endl;
-    std::cout << "Edad: " << est.edad << std::endl;
-    std::cout << "Promedio: " << est.promedio << std::endl;
+void Estudiante::agregarMateria(const std::string& materia) {
+    materias.push_back(materia);
 }
 
-void agregarMateria(Estudiante& est, const std::string& materia) {
-    est.materias.push_back(materia);
+void Estudiante::registrarAsistencia(const std::string& fecha, const std::string& materia, const std::string& estado) {
+    asistencias.push_back(Asistencia(fecha, materia, estado));
 }
 
-void mostrarMaterias(const Estudiante& est) {
-    std::cout << "Materias de " << est.nombre << ":" << std::endl;
-    for (const auto& materia : est.materias) {
-        std::cout << materia << std::endl;
+void Estudiante::mostrarEstudiante() const {
+    std::cout << "Nombre: " << nombre << "\nEdad: " << edad << "\nPromedio: " << promedio << std::endl;
+
+    std::cout << "\nMaterias:" << std::endl;
+    for (const auto& materia : materias) {
+        std::cout << "  - " << materia << std::endl;
+    }
+
+    std::cout << "\nAsistencias:" << std::endl;
+    for (const auto& asistencia : asistencias) {
+        asistencia.mostrarAsistencia();
     }
 }

@@ -3,19 +3,23 @@
 
 #include <string>
 #include <vector>
+#include "Asistencia.h"
 
 class Estudiante {
 public:
-    Estudiante(std::string nombre, int edad, double promedio);
     std::string nombre;
     int edad;
-    double promedio;
+    float promedio;
     std::vector<std::string> materias;
+    std::vector<Asistencia> asistencias;
+
+    // Constructor
+    Estudiante(const std::string& nombre, int edad, float promedio);
+
+    // Métodos
+    void agregarMateria(const std::string& materia);
+    void registrarAsistencia(const std::string& fecha, const std::string& materia, const std::string& estado);
+    void mostrarEstudiante() const;
 };
 
-// Function declarations
-void mostrarEstudiante(const Estudiante& est);
-void agregarMateria(Estudiante& est, const std::string& materia);
-void mostrarMaterias(const Estudiante& est);
-
-#endif
+#endif // ESTUDIANTE_H
