@@ -16,4 +16,4 @@ public:
     void mostrarAsistencia() const;
 };
 
-#endif // ASISTENCIA_H
+#endif
