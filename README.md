@@ -134,6 +134,9 @@ C++ es más adecuado para el proyecto del CGEA debido a su soporte para orientac
 ¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
 
 1.Usar C++ por sus ventajas en orientación a objetos y manejo de excepciones.
+
 2.Diseñar un sistema modular y escalable.
+
 3.Validar datos y asegurar entradas seguras.
+
 4.Implementar pruebas automatizadas para garantizar calidad.
