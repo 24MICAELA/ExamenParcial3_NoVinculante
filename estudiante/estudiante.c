@@ -25,7 +25,7 @@ void agregarMateria(Estudiante *estudiante, const char *materia) {
         strcpy(estudiante->materias[estudiante->num_materias], materia);
         estudiante->num_materias++;
     } else {
-        printf("Error: El estudiante ya tiene el máximo de materias.\n");
+        printf("Error: El estudiante ya tiene el maximo de materias.\n");
     }
 }
 
