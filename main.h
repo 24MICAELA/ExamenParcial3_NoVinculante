@@ -1,16 +1,7 @@
-//
-// Created by Micae on 21/11/2024.
-//
-
+// main.h
 #ifndef MAIN_H
 #define MAIN_H
 
+// Aquí puedes declarar funciones adicionales si es necesario
 
-
-class main {
-
-};
-
-
-
-#endif //MAIN_H
+#endif // MAIN_H
