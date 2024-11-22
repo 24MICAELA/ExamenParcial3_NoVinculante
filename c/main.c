@@ -1,6 +1,6 @@
 // main.c
 #include <stdio.h>
-#include "estudiante.h"
+#include "estudiante/estudiante.h"
 
 int main() {
     // Crear un estudiante
