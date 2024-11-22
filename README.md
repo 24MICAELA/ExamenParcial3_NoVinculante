@@ -73,6 +73,7 @@ Rúbrica
 1.(30%) Implementación de la estructura Estudiante:
 
 La estructura Estudiante está correctamente implementada tanto en C como en C++.
+
 2.(20%) Implementación de la función mostrarEstudiante():
 
 La función mostrarEstudiante() está correctamente implementada y muestra correctamente todos los campos de una instancia de Estudiante.
@@ -141,6 +142,7 @@ El sistema debe ser capaz de manejar situaciones inesperadas, como errores en el
 
 Implementa excepciones personalizadas para manejar estos escenarios.
 Demuestra su uso con bloques try, catch.
+
 2.C:
 
 Aunque C no tiene un sistema integrado de manejo de excepciones como C++, discute cómo podrías manejar errores y situaciones inesperadas en este lenguaje.
