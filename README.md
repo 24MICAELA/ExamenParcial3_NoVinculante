@@ -36,19 +36,22 @@ Siguiendo estas condiciones y presentando tu trabajo de manera organizada, nos a
 Respuestas: 
 Parte 1: Preguntas de Elección Múltiple (20%)
 ¿Cuál es la principal diferencia entre la estructura básica del programa en C y C++?
+
 Respuesta: b) C utiliza printf y scanf mientras que C++ utiliza std::cout y std::cin.
 
 ¿Qué es un espacio de nombres en C++?
+
 Respuesta: a) Una característica que permite agrupar entidades como clases, objetos y funciones bajo un nombre.
 
 En programación orientada a objetos en C++, ¿qué es una clase?
+
 Respuesta: d) Una plantilla para crear objetos, proporciona una definición inicial para el estado (miembros de datos) y el comportamiento (miembros de la función).
 
 ¿Qué son los templates en C++?
+
 Respuesta: b) Permiten la creación de funciones y clases genéricas, es decir, que pueden trabajar con cualquier tipo de datos.
 
 Parte 2: Pregunta de desarrollo de código (80%)
-
 
 En el marco de la globalización y la creciente tendencia de intercambio académico, las universidades internacionales están experimentando un auge en la diversidad de su población estudiantil. Estos estudiantes provienen de diferentes partes del mundo, con culturas, idiomas y antecedentes educativos distintos. Con tal diversidad, la administración académica enfrenta el desafío de gestionar de manera eficiente y personalizada la información de cada estudiante.
 
