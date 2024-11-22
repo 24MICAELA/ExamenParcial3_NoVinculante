@@ -33,7 +33,8 @@ Asegúrate de que tu código esté bien comentado, organizado y que sea fácil d
 Si utilizas alguna referencia externa para resolver algún ejercicio, es esencial que lo cites en tu README.md.
 Siguiendo estas condiciones y presentando tu trabajo de manera organizada, nos ayudarás a llevar a cabo un proceso de revisión más eficiente. Deseamos que demuestres todo tu conocimiento y habilidades en este examen. ¡Buena suerte!
 
-Respuestas: Parte 1: Preguntas de Elección Múltiple (20%)
+Respuestas: 
+Parte 1: Preguntas de Elección Múltiple (20%)
 ¿Cuál es la principal diferencia entre la estructura básica del programa en C y C++?
 Respuesta: b) C utiliza printf y scanf mientras que C++ utiliza std::cout y std::cin.
 
@@ -56,8 +57,6 @@ El "Centro Global de Estudios Avanzados" (CGEA) es una de esas universidades int
 Para ello, han contratado a una firma de desarrollo de software especializada en soluciones educativas. La primera fase del proyecto consiste en evaluar y decidir qué lenguaje de programación es el más adecuado para implementar el nuevo sistema. Dado que el equipo de desarrollo tiene experiencia tanto en C como en C++, han decidido realizar una comparativa entre ambos lenguajes utilizando una estructura básica: la información del estudiante.
 
 Instrucciones para la Pregunta de Desarrollo de Código:
-
-
 
 Rúbrica
 
