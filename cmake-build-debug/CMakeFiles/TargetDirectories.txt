@@ -1,3 +1,0 @@
-C:/Users/barba/Documents/GitHub/ExamenParcial3_NoVinculante/cmake-build-debug/CMakeFiles/ExamenParcial3_NoVinculante.dir
-C:/Users/barba/Documents/GitHub/ExamenParcial3_NoVinculante/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/barba/Documents/GitHub/ExamenParcial3_NoVinculante/cmake-build-debug/CMakeFiles/rebuild_cache.dir
