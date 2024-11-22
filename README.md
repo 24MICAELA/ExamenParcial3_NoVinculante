@@ -128,9 +128,12 @@ Conclusión:
 Con base en tu experiencia y las implementaciones desarrolladas:
 
 ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
+
 C++ es más adecuado para el proyecto del CGEA debido a su soporte para orientación a objetos, manejo dinámico de memoria, y herramientas modernas que simplifican la implementación de sistemas complejos.
+
 ¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
-Usar C++ por sus ventajas en orientación a objetos y manejo de excepciones.
-Diseñar un sistema modular y escalable.
-Validar datos y asegurar entradas seguras.
-Implementar pruebas automatizadas para garantizar calidad.
+
+1.Usar C++ por sus ventajas en orientación a objetos y manejo de excepciones.
+2.Diseñar un sistema modular y escalable.
+3.Validar datos y asegurar entradas seguras.
+4.Implementar pruebas automatizadas para garantizar calidad.
